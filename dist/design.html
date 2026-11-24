@@ -1,0 +1,67 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>花间 · 花朵设计室</title><style>*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden}body{height:100dvh;display:grid;grid-template-rows:60px minmax(0,1fr) 115px;background:#fffefa;color:#283c2d;font-family:Arial,sans-serif}header{display:grid;grid-template-columns:1fr 1fr 1fr;align-items:center;padding:0 4%;border-bottom:1px solid #e9ecdf}header span{text-align:center;letter-spacing:4px}header small{text-align:right;font-size:9px;letter-spacing:3px;color:#859378}a{text-decoration:none;color:inherit;font-size:12px}button{cursor:pointer;color:inherit;border:1px solid #dce2d3;border-radius:24px;background:#fffefa;padding:10px 17px;font-size:12px}button:hover{border-color:#758967}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #dda842;outline-offset:4px}main{position:relative;display:flex;align-items:center;justify-content:center;min-height:0;background:radial-gradient(ellipse,#f3f5e8,transparent 65%)}.title{position:absolute;top:16px;text-align:center;left:0;right:0;pointer-events:none}h1{font:normal clamp(22px,3vw,31px) 'Songti SC',serif;letter-spacing:5px;margin:0 0 9px}.title p{font-size:10px;letter-spacing:3px;color:#839175;margin:0}.stage{position:absolute;inset:90px 0 120px;display:flex;align-items:center;justify-content:center}#flower{width:min(34vw,350px);height:min(38vh,350px);display:flex;align-items:center;justify-content:center;z-index:2}#flower svg{height:100%;width:100%;overflow:visible}#flower [data-part]{cursor:pointer}#flower [data-part]:hover{filter:brightness(1.06)}.rail{position:absolute;top:50%;width:0;height:0}.left{left:calc(50% - min(23vw,270px))}.right{left:calc(50% + min(23vw,270px))}.wheel{position:absolute;inset:0;width:1px;height:1px;touch-action:none}.arc-item{position:absolute;left:-25px;top:-25px;width:50px;height:50px;padding:6px;border-radius:50%;display:flex;align-items:center;justify-content:center;transition:transform .25s,opacity .25s;box-shadow:0 3px 15px #394d2710}.arc-item svg{width:100%;height:100%}.arc-item.selected{outline:1px solid #8d9d7a;outline-offset:5px}.arc-guide{position:absolute;width:160px;height:265px;top:-132px;border:1px solid #e3e8d9;border-radius:50%;pointer-events:none}.left .arc-guide{left:-160px;border-right:0}.right .arc-guide{left:0;border-left:0}.rail-title{position:absolute;width:170px;text-align:center;top:-158px;font-size:10px;letter-spacing:3px;color:#7b8c6b}.left .rail-title{left:-165px}.right .rail-title{left:-5px}.rail-foot{position:absolute;top:136px;width:150px;display:flex;align-items:center;justify-content:center;gap:12px}.left .rail-foot{left:-155px}.right .rail-foot{left:5px}.rail-foot button{padding:4px 10px;font-size:15px}.rail-foot span{font-size:10px;white-space:nowrap}input[type=color]{width:30px;height:28px;padding:0;border:0;background:none}.below{position:absolute;bottom:15px;left:0;right:0;text-align:center}.count{display:flex;gap:14px;align-items:center;justify-content:center;font-size:11px}.count input{width:180px;accent-color:#56754b}.hint{font-size:10px;color:#829176;margin:11px 0}.actions{display:flex;justify-content:center;gap:10px}.primary{background:#28442e;border-color:#28442e;color:white}#notice{font-size:10px;color:#638052;height:14px;margin:6px 0 0}.pool{border-top:1px solid #e4e9db;display:grid;grid-template-columns:1fr minmax(0,2fr) 1fr;align-items:center;gap:20px;padding:6px 4%}.pool h2{font:normal 15px 'Songti SC',serif;letter-spacing:2px}.saved{display:flex;gap:12px;align-items:center;justify-content:flex-start;overflow-x:auto;overflow-y:hidden;height:100px}.card{flex:0 0 72px;text-align:center}.card svg{height:60px;width:60px}.card button{padding:3px 6px;font-size:9px}.pool-actions{display:flex;flex-direction:column;align-items:flex-end;gap:6px}.pool-actions button{font-size:10px;padding:7px 12px}@media(max-width:700px){body{grid-template-rows:48px minmax(0,1fr) 95px}header small{display:none}header{grid-template-columns:1fr 2fr 1fr;padding:0 4%}header span{font-size:13px}.title{top:12px}.stage{inset:80px 0 130px}#flower{width:40vw;height:30vh}.left{left:calc(50% - 17vw)}.right{left:calc(50% + 17vw)}.arc-item{width:36px;height:36px;left:-18px;top:-18px}.rail{transform:scale(.72)}.rail-title{font-size:13px}.below{bottom:10px}.pool{grid-template-columns:90px minmax(0,1fr) 130px;gap:5px;padding:4px 3%}.pool h2{font-size:12px}.saved{height:83px}.card{flex-basis:62px}.card svg{height:46px;width:46px}.pool-actions button{font-size:9px;padding:6px 8px}.hint{font-size:9px}.count input{width:130px}}@media(max-height:620px){.title p{display:none}.stage{inset:60px 0 120px}.rail{transform:scale(.68)}#flower{height:30vh}.hint{margin:7px}h1{font-size:21px}}.arc-item{width:60px;height:60px;left:-30px;top:-30px;border:0;box-shadow:none;background:transparent}.arc-item.selected{outline:0;box-shadow:none}.arc-item svg{width:100%;height:100%}.left{left:calc(50% - min(38vw,460px))}.right{left:calc(50% + min(38vw,460px))}.rail-title{top:-170px}.left .rail-title{left:20px}.right .rail-title{left:-190px}.saved{scrollbar-width:thin;scrollbar-color:#9bab8c transparent;overscroll-behavior-x:contain;scroll-snap-type:x proximity;touch-action:pan-x}.card{scroll-snap-align:start}.pool{grid-template-columns:1fr minmax(0,2fr) 1fr}.wheel{width:200px;height:300px;top:-150px}.left .wheel{left:0}.right .wheel{left:-200px}@media(max-width:700px){.left{left:2%}.right{left:98%}.rail{transform:scale(.65)}.arc-item{width:54px;height:54px;left:-27px;top:-27px}.pool{grid-template-columns:85px minmax(0,1fr) 130px}}@media(max-height:620px){.rail{transform:scale(.68)}}
+.rail-title{top:-190px}.left .rail-title{left:0}.right .rail-title{left:-170px}button{background:linear-gradient(135deg,#ffffffa8,#f4f8ed70);backdrop-filter:blur(16px) saturate(140%);-webkit-backdrop-filter:blur(16px) saturate(140%);border:1px solid #ffffffd9;box-shadow:0 4px 16px #3e55240d,inset 0 1px 0 #ffffffd9;transition:background .2s,box-shadow .2s}button:hover{background:#ffffffcf;box-shadow:0 6px 18px #3e55241c}button:active{filter:brightness(.97)}button.primary{color:#27452c;background:linear-gradient(135deg,#d7edd5ac,#b6d8ba85);border-color:#ffffffdc}.arc-item{backdrop-filter:none;-webkit-backdrop-filter:none;box-shadow:none;border:0}.arc-item:hover{box-shadow:none}.pool-actions button{background:#ffffff80}@media(max-width:700px){h1{font-size:24px}}body{background:#fff;font-family:Arial,sans-serif}main{background:#fff}h1{font-family:'Songti SC',serif}.pool h2{font-family:'Songti SC',serif}button,input,output{font-family:Arial,sans-serif}
+/* The studio uses three rows so short screens cannot overlap the controls. */
+main{display:grid;grid-template-rows:auto minmax(0,1fr) auto;align-items:stretch;justify-content:stretch;min-height:0}
+.title{position:relative;top:auto;left:auto;right:auto;padding:18px 0 7px;min-height:0}
+.stage{position:relative;inset:auto;min-height:0;width:100%}
+#flower{max-height:100%}
+.below{position:relative;bottom:auto;left:auto;right:auto;padding:5px 10px 10px;min-width:0}
+#notice{height:auto;min-height:16px;line-height:1.4;margin:6px 0 0}
+button:disabled{cursor:default;opacity:.45;filter:saturate(.65)}
+.pool-full .arc-item{cursor:not-allowed}
+.pool-full #notice{color:#80502b;font-size:11px}
+.pool{min-height:0;min-width:0}
+.saved{min-width:0;max-height:100%}
+@media(max-width:700px){
+  .title{padding:11px 0 4px}
+  .below{padding:4px 8px 8px}
+  .rail{transform:scale(.56)}
+  .hint{margin:8px 0;font-size:9px}
+  #notice{font-size:9px;min-height:13px;margin-top:4px}
+  .pool-full #notice{font-size:9px}
+}
+@media(max-width:360px){
+  .rail{transform:scale(.49)}
+  #flower{width:36vw}
+  .count{gap:8px}
+  .count input{width:115px}
+  .actions button{padding:9px 13px}
+  .pool{grid-template-columns:64px minmax(0,1fr) 112px}
+  .pool h2{font-size:10px;letter-spacing:0}
+  .pool-actions button{font-size:8px;padding:6px 6px}
+}
+@media(max-height:500px) and (min-width:701px){
+  body{grid-template-rows:42px minmax(0,1fr) 72px}
+  header{padding:0 3%}
+  header span{font-size:13px}
+  .title{padding:5px 0 3px}
+  .title h1{font-size:20px;line-height:1.2;margin:0}
+  .title p{display:none}
+  #flower{height:min(34vh,145px);width:min(25vw,240px)}
+  .rail{transform:scale(.42)}
+  .rail-title{font-size:15px;top:-185px}
+  .below{padding:2px 8px 4px}
+  .count{gap:10px;font-size:10px}
+  .count input{width:145px}
+  .hint{display:none}
+  .actions{margin-top:4px;gap:8px}
+  .actions button{padding:7px 14px;font-size:11px}
+  #notice{font-size:9px;min-height:12px;margin-top:2px}
+  .pool-full #notice{font-size:9px}
+  .pool{padding:3px 3%;grid-template-columns:1fr minmax(0,2fr) 1fr;gap:10px}
+  .pool h2{font-size:12px;letter-spacing:1px}
+  .saved{height:64px;gap:8px}
+  .card{flex-basis:60px}
+  .card svg{height:42px;width:42px}
+  .card button{font-size:8px;padding:2px 5px}
+  .pool-actions{gap:3px}
+  .pool-actions button{font-size:8px;padding:5px 9px}
+}
+@media(max-height:430px) and (max-width:700px){
+  body{grid-template-rows:38px minmax(0,1fr) 65px}
+  .title{padding:3px 0}.title h1{font-size:18px;margin:0}.title p{display:none}
+  .rail{transform:scale(.38)}#flower{height:30vh}
+  .hint{display:none}.below{padding:2px 5px}.actions button{padding:6px 11px}
+  .pool{padding:2px 3%}.saved{height:60px}.card svg{height:38px;width:38px}
+}
+</style><header><a href="./">← 返回花间</a><span>花朵设计室</span><small>MAKE IT BLOOM</small></header><main><div class="title"><h1>种一朵自己的花</h1><p id="editing">正在雕琢 · 花瓣</p></div><div class="stage"><div class="rail left"><div class="rail-title">COLOR · 颜色</div><div id="colors" class="wheel" aria-label="滚动选择颜色"></div></div><div id="flower"></div><div class="rail right"><div class="rail-title">SHAPE · 形状</div><div id="shapes" class="wheel" aria-label="滚动选择形状"></div></div></div><div class="below"><div class="count"><label for="count">花瓣数量</label><input id="count" type="range" min="3" max="12" value="5"><output id="countValue">5 瓣</output></div><p class="hint">点击花心或花瓣切换编辑 · 滚动或滑动两侧圆弧选择</p><div class="actions"><button id="plant" class="primary">放入花池 ↗</button><button id="more">保存，再设计 ＋</button></div><p id="notice" aria-live="polite"></p></div></main><div class="pool"><h2>我的花种 <small id="total"></small></h2><div id="saved" class="saved"></div><div class="pool-actions"><button id="plantSaved">将已保存的花放入花池 ↗</button><button id="restore">恢复原来的花朵</button></div></div><script src="./design.js"></script></html>
